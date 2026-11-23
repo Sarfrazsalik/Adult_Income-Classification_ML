@@ -22,10 +22,10 @@ The script reports the exact record count, duplicate count, missing-value
 count and class distribution when it is run. Use those generated values in
 your final write-up rather than copying estimates from another source.
 
-## c. GitHub Repository Link
+## GitHub Repository Link
 **          **
 
-## d. Models used and evaluation
+## Models used and evaluation
 The following five models are implemented:
 1. Logistic Regression
 2. Decision Tree Classifier
@@ -45,14 +45,14 @@ The following five models are implemented:
   the training data and then applied to the test data.
 
 ### Model configurations
-The exact hyperparameters are documented in the `src/train_models.ipynb` notebook.
+The exact hyperparameters are documented in the `model/train_models.ipynb` notebook.
 The main settings include 1,000 iterations for Logistic Regression, a
 maximum depth of 12 for the Decision Tree, 7 neighbours for KNN, Gaussian
 Naive Bayes, and 200 trees for Random Forest.
 
 ### Results table
-The following results are from the current `src/train_models.ipynb` run
-(`outputs/metrics.csv`):
+The following results are from the current `model/train_models.ipynb` run
+(`output/metrics.csv`):
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
@@ -63,7 +63,7 @@ The following results are from the current `src/train_models.ipynb` run
 | Random Forest (Ensemble) | 0.8129 | 0.9159 | 0.5732 | 0.8545 | 0.6861 | 0.5827 |
 
 ### Graph representation
-The notebook saves `outputs/model_comparison.png`, which compares all six
+The notebook saves `output/model_comparison.png`, which compares all six
 metrics for the five models. Include this graph in the final PDF.
 
 ![Comparison of Accuracy, AUC, Precision, Recall, F1, and MCC for all five models](outputs/model_comparison.png)
@@ -91,11 +91,10 @@ imbalanced.
 6. Confirm the saved models in `models/` and the held-out `test_data.csv`.
 
 ## Repository contents
-- `src/train_models.ipynb` - data download, preprocessing, training, evaluation, comparison table, and graph
+- `model/train_models.ipynb` - data download, preprocessing, training, evaluation, comparison table, and graph
 - `requirements.txt` - Python dependencies
-- `test_data.csv` - generated held-out test data (created after running)
-- `models/` - saved fitted model pipelines (created after running)
-- `outputs/` - metrics CSV and comparison graph (created after running)
+- `test_data.csv` - test data
+- `output/` - metrics CSV and comparison graph (created after running)
 
 ## Reproducibility
 The split uses a fixed random seed (`42`). All models use the same train-test
