@@ -30,9 +30,6 @@ The script reports the exact record count, duplicate count, missing-value
 count and class distribution when it is run. Use those generated values in
 your final write-up rather than copying estimates from another source.
 
-## GitHub Repository Link
-**   https://github.com/Sarfrazsalik/Adult_Income-Classification_ML.git       **
-
 ## Models used and evaluation
 The following five models are implemented:
 1. Logistic Regression
