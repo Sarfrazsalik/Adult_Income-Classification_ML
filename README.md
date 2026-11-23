@@ -66,7 +66,7 @@ The following results are from the current `model/train_models.ipynb` run
 The notebook saves `output/model_comparison.png`, which compares all six
 metrics for the five models. Include this graph in the final PDF.
 
-![image alt]{https://github.com/Sarfrazsalik/Adult_Income-Classification_ML/blob/0f17423d30186c6ebdccfbf93d9bca9711f75df2/output/model_comparison.png}
+![image alt](https://github.com/Sarfrazsalik/Adult_Income-Classification_ML/blob/0f17423d30186c6ebdccfbf93d9bca9711f75df2/output/model_comparison.png)
 
 ### Observations on model performance
 The observations below are based on the current notebook results. Accuracy
