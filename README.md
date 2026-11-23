@@ -1,6 +1,14 @@
 # Adult_Income-Classification_ML
 
 
+## Execution Instruction
+1. Install Python 3.9 or later.
+2. Create and activate a virtual environment.
+3. Install dependencies: `pip install -r requirements.txt`
+4. Open `model/train_models.ipynb` in Jupyter Notebook, JupyterLab, or VS Code and select **Run All**. The first run requires an internet connection to download the public UCI data.
+5. Review `output/metrics.csv` and `output/model_comparison.png`.
+
+
 ## Problem statement
 The objective of this project is to compare five supervised classification
 algorithms for predicting whether an individual's annual income is above
@@ -82,12 +90,6 @@ imbalanced.
 | Random Forest (Ensemble) | Highest AUC (0.9159), F1 (0.6861), and MCC (0.5827), with strong Recall (0.8545), giving it the best overall balance in this run. |
 | Overall winner | Random Forest, when selecting by F1. It also has the highest AUC and MCC, while KNN's higher Accuracy comes with substantially lower Recall. |
 
-## How to run
-1. Install Python 3.9 or later.
-2. Create and activate a virtual environment.
-3. Install dependencies: `pip install -r requirements.txt`
-4. Open `model/train_models.ipynb` in Jupyter Notebook, JupyterLab, or VS Code and select **Run All**. The first run requires an internet connection to download the public UCI data.
-5. Review `output/metrics.csv` and `output/model_comparison.png`.
 
 ## Repository contents
 - `model/train_models.ipynb` - data download, preprocessing, training, evaluation, comparison table, and graph
