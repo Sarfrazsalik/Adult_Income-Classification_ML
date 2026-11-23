@@ -86,9 +86,8 @@ imbalanced.
 1. Install Python 3.9 or later.
 2. Create and activate a virtual environment.
 3. Install dependencies: `pip install -r requirements.txt`
-4. Open `src/train_models.ipynb` in Jupyter Notebook, JupyterLab, or VS Code and select **Run All**. The first run requires an internet connection to download the public UCI data.
-5. Review `outputs/metrics.csv` and `outputs/model_comparison.png`.
-6. Confirm the saved models in `models/` and the held-out `test_data.csv`.
+4. Open `model/train_models.ipynb` in Jupyter Notebook, JupyterLab, or VS Code and select **Run All**. The first run requires an internet connection to download the public UCI data.
+5. Review `output/metrics.csv` and `output/model_comparison.png`.
 
 ## Repository contents
 - `model/train_models.ipynb` - data download, preprocessing, training, evaluation, comparison table, and graph
